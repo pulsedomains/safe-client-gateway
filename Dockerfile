@@ -54,7 +54,7 @@ RUN cp target/$(cat /rust_target.txt)/release/safe-client-gateway .
 FROM debian:bullseye-slim
 WORKDIR "/app"
 
-ENV ROCKET_ENV=production ROCKET_ADDRESS=0.0.0.0 ROCKET_PORT=3666
+ENV ROCKET_ENV=production ROCKET_ADDRESS=0.0.0.0 ROCKET_PORT=8000
 EXPOSE $ROCKET_PORT
 
 RUN set -ex; \ 
