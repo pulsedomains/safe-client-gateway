@@ -1,10 +1,10 @@
 # Safe Client Gateway
-[![Actions Status](https://github.com/safe-global/safe-client-gateway/workflows/safe-client-gateway/badge.svg?branch=main)](https://github.com/safe-global/safe-client-gateway/actions)
-[![Coverage Status](https://coveralls.io/repos/github/safe-global/safe-client-gateway/badge.svg)](https://coveralls.io/github/safe-global/safe-client-gateway)
+[![Actions Status](https://github.com/pulsedomains/safe-client-gateway/workflows/safe-client-gateway/badge.svg?branch=main)](https://github.com/pulsedomains/safe-client-gateway/actions)
+[![Coverage Status](https://coveralls.io/repos/github/pulsedomains/safe-client-gateway/badge.svg)](https://coveralls.io/github/pulsedomains/safe-client-gateway)
 
 ## Motivation
 
-This project is a gateway between the Safe clients ([Android](https://github.com/safe-global/safe-android)/ [iOS](https://github.com/safe-global/safe-ios)/ [web](https://github.com/safe-global/web-core)) and the Safe backend services ([transaction service](https://github.com/safe-global/safe-transaction-service) and Ethereum nodes). It is providing a more UI-oriented mapping and multi-sourced data structures for ease of integration and rendering.
+This project is a gateway between the Safe clients ([Android](https://github.com/safe-global/safe-android)/ [iOS](https://github.com/safe-global/safe-ios)/ [web](https://github.com/safe-global/web-core)) and the Safe backend services ([transaction service](https://github.com/pulsedomains/safe-transaction-service) and Ethereum nodes). It is providing a more UI-oriented mapping and multi-sourced data structures for ease of integration and rendering.
 
 ## Documentation
 
@@ -17,7 +17,7 @@ This project is a gateway between the Safe clients ([Android](https://github.com
 This project requires `rustup` and `redis`
 
 ```bash
-git clone https://github.com/safe-global/safe-client-gateway.git
+git clone https://github.com/pulsedomains/safe-client-gateway.git
 cd safe-client-gateway
 cp .env.sample .env
 redis-server
